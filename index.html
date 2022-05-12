@@ -4,10 +4,188 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Fredoka:wght@600&family=Libre+Baskerville&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300&family=Poiret+One&family=Roboto+Slab:wght@100;700&family=Rubik:wght@300;400&family=Shadows+Into+Light&family=Single+Day&display=swap" rel="stylesheet">
     <title>THE BIG HEART PHARMACY DAEJUN</title>
 </head>
 <body>
-    <p> Big Healthy Hearts ❣️ </p>
+
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <a href="#top" class="client__logo" title="HERGEMONY">
+          <img src="./images/bigheartpharmacylogo.PNG" alt="hergemony" class="client__logo"/>
+        </a>
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Location</a></li>
+          <li class="nav__item"><a href="#clients" class="nav__link">Services</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">Team</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+
+
+  <header class="header" role="banner" id="top">
+<header style="background-color: black">
+
+  <!-- Add css animation something to do with logo -->
+  <section>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+
+            <h1> BIG HEART PHARMACY </h1>
+            <p> 큰 심장 약국 </p>
+            <p> We are located in Daejun, South Korea </P>
+            <p> Big Healthy Hearts ❣️ </p>
+            
+      <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+<div>
+<a href="https://github.com/hergemony" title="View Source Code" target="_blank">
+
+<!-- ♀️ possbile to add backgroud here-->
+
+</a>
+</div>
+</section>
+
+<section>
+<img src="./images/craneheart.jpg" class="logo" alt="GitHub">
+</section>
+  <main role="main">
     
+    <!-- ***** Clients ***** -->
+
+    <section class="client" id="clients">
+      <div class="row">
+        <h2>Organisations</h2>
+        <div class="client__logos">
+          <!-- Add logos of the clients or companies you have worked with. -->
+          <img src="./images/C&S.PNG" class="client__logo" alt="Company 2" />
+          <img src="./images/bckslogo.png" class="client__logo" alt="Company 3" />
+          <img src="./images/sustainfarmacia.jpg" class="client__logo" alt="Company 1" />
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Big Heart Pharmacy</h2>
+        <div class="about__content">
+          <div class="about__text">
+               <img src="images/daejeonmap.jpeg" style="height:200px; border: 1px solid black;" alt="This is a Daejeon, South Korea" class="avatar">
+        </div>
+            <p>
+             WELCOME TO THE BIG HEART PHARMACY!
+
+             We bring you expert health advice with big hearts and warm smiles!
+
+
+             우리는 당신에게 큰 마음과 따뜻한 미소로 전문적인 건강 조언을 제공합니다!
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="https://www.linkedin.com/in/her-gemony-bbb341235/" target="_blank" class="btn">My Resume</a>
+          </div>
+       
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Contact Us</h2>
+      <div class="contact__info">
+        <p>
+        
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:hergemony@gmail.com" class="btn">hergemony@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Create form using JSON Storage -->
+<section>
+  <h3>Let's collaborate</h3>
+  <form action="https://formspree.io/f/mlezoann" method="POST">
+    <div class="contactinfo"></div>
+    <label for>
+      <span>Name</span>
+      <input type="name" name="username" placeholder="Type your name here">
+    </label>
+    <label for>
+      <span>Email</span>
+      <input type="email" name="email" placeholder="Type your email here">
+    </label>
+    <textarea name="message" placeholder="Tell me what you love"></textarea>
+
+    <input type="hidden" name="_subject" value="New submission!">
+    <input type="hidden" name="_next" value="">
+    <div class="submit-wrap">
+        <!-- create json storage -->
+      <input type="submit" value="Send">
+    </div>
+
+
+  </form>
+
+
+
+
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://twitter.com/hergemony/" title="Link to Twitter Profile" target="_blank">
+            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/hergemony/" title="Link to Github Profile" target="_blank">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/her-gemony-bbb341235/" target="_blank">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <p>
+          ©️2022 BIG HEART PHARMACY <a href="https://github.com/hergemony" class="link"> Hergemony™️ </a>.
+      </p>
+      <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=hergemony&repo=Portfolio&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/logo.JPG" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./script.js"></script>
 </body>
 </html>
